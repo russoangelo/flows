@@ -42,8 +42,9 @@ The SQL queries in this repository focus on extracting operational and analytica
 The aim is to demonstrate how SQL can be used to analyze network infrastructure data, not just traditional business datasets.
 
 ## Repository Structure
-schema.sql          Database schema and sample data
-queries/            Collection of analytical SQL queries
+
+- **schema.sql** — Database schema definition and sample dataset  
+- **queries/** — Collection of analytical SQL queries
 
 Each query is written to solve a specific network analysis problem using aggregations, joins, subqueries, and filtering logic.
 
