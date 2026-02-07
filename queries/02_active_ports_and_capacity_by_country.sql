@@ -12,4 +12,4 @@ FROM ISP AS i
 JOIN Porte_Switch AS p
 ON i.id_isp = p.id_isp
 GROUP BY i.nome
-ORDER BY maximum_gbps DESC
+ORDER BY maximum_gbps DESC;

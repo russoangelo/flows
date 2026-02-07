@@ -14,4 +14,4 @@ ON i.id_isp = p.id_isp
 JOIN Traffico_Orario AS t
 ON p.id_porta = t.id_porta
 GROUP BY i.nome
-ORDER BY media DESC
+ORDER BY media DESC;
