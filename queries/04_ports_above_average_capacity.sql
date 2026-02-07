@@ -8,6 +8,7 @@
 -- to the overall deployment baseline.
 -- ============================================================
 
+
 SELECT p.*
 FROM Porte_Switch AS p
 WHERE p.capacita_max_gbps > (
